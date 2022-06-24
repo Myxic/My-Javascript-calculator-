@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            max-width: 600px;
+            padding: 40px;       
+            margin: auto;
+            background: linear-gradient(135deg, #71b7e6, #9b59b6);
+        }
+        .container{
+            width: 500px;
+            display: flex;
+        }
+        input{
+            width: auto;
+            text-align: center;
+            margin: auto;
+        }
+        button{
+            width: 20%;
+            margin: 10px auto;
+            
+        }
+        @media (max-width : 600px){
+            body{
+                max-width: 100%;
+            }
+            .container{
+                width: 80%;
+                display: block;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    
+    
+    
+
+    <div class="container">
+        <div class="div1">
+    <label for="my_text"> Enter a number:</label>
+    <br>
+    <input type="text" id="my_text" placeholder="Enter a number">
+    </div>
+    <div class="div2">
+    <label for="my_opr"> opr:</label>
+    <br>
+    <input type="text"  id="my_opr" placeholder="opr (+, - , *, /)" >
+    </div>
+    <div class="div3">
+
+    <label for="my_text2"> Enter a number:</label>
+    <br>
+    <input type="text" id="my_text2" placeholder="Enter a number">
+    </div>
+
+    </div>
+
+    <button type="button" id = "my_button"> Submit</button>
+
+
+
+    <script src="./index.js">
+
+    </script>
+</body>
+</html>
